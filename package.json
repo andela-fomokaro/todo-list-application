@@ -2,9 +2,10 @@
   "name": "todo-list-application",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,13 @@
   "homepage": "https://github.com/andela-fomokaro/todo-list-application#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "eslint": "^5.3.0",
     "express": "^4.16.3",
     "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "nodemon": "^1.18.3"
   }
 }
