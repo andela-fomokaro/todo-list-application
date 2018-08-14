@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 module.exports = (sequelize, DataTypes) => {
   const TodoItem = sequelize.define('TodoItem', {
     content: {
